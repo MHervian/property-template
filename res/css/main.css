@@ -110,8 +110,8 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Spartan', Arial, Helvetica, sans-serif;}
     content: '';
     top: 22vh;
     left: -2vw;
-    right: 6vw;
-    bottom: 16vh;
+    right: 0vw;
+    bottom: 20vh;
     background-image: url('../images/samples/svg/Rectangle_1.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -122,8 +122,10 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Spartan', Arial, Helvetica, sans-serif;}
     text-decoration: none;
 }
 .featured-project .slick-dots {
+
     display: flex;
     justify-content: center;
+    margin-top: 7vh;
     padding-top: 4.6vh;
     list-style-type: none;
 }
